@@ -1,0 +1,21 @@
+{
+  "name": "BHATTI-MD",
+  "description": "BHATTI-MD WhatsApp bot made by BHATTI-MD official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","BHATTI-MD","BHATTI-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the BHATTI-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
